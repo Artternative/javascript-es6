@@ -1,5 +1,7 @@
-function sum() {
+function sum(...num) {
   // Start coding here !
+  let cal = num.reduce((acc,cur) => acc + cur)
+  return cal
 }
 
 let result1 = sum(1, 2, 3, 4, 5, 6, 7, 8);
